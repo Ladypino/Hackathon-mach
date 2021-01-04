@@ -1,10 +1,20 @@
 .slide{
     background: #F8F7F4 !important;
 }
+
 .slide-container{
     background-color: #F8F7F4;
+    padding-top:1%;
 }
 
+.carousel .control-next.control-arrow:before{
+    content:url('../../images/next.png') !important;
+    transform: matrix(1, 0, 0, 1, -76, 0);
+}
+.carousel .control-prev.control-arrow:before{
+    content:url('../../images/prevv.png') !important;
+    transform: matrix(1, 0, 0, 1, 85, 0);
+}
 .slide-container h2{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -14,6 +24,7 @@
     text-align: center;
     font-feature-settings: 'liga' off;
     color: #18191F;
+    margin-top: 3rem;
 }
 
 .slide-container h5{
@@ -37,6 +48,76 @@
     margin:3rem auto;
 }
 
-.card-container div{
-    width:50%
+#root > div > div.carousel-root > div > div > ul > li.slide.selected > div > div > img{
+    width:50%;
+}
+
+.card-container > div{
+    width:50%;
+    padding-left:5%;
+}
+
+.card-container> div > p:nth-child(1){
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+    text-align: left;
+    color: #6200EE;
+}
+
+.card-container> div > p:nth-child(2){
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    text-align:left;
+    color: #18191F;
+}
+
+.card-container > div > p:nth-child(3){
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.563;
+    text-align: left;
+    color: #6200EE;
+}
+
+.card-container > div > div{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.card-container > div > div> img{
+    height: 40px;
+    object-fit: contain;
+}
+
+.card-container> div > p:nth-child(5), .card-container > div > p:nth-child(7){
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.5673rem;
+    text-align: left;
+    color: #6200EE;
+    margin: 1rem auto;
+}
+
+.card-container > div > div:nth-child(6), .card-container > div > div:nth-child(8){
+    width:12%
+}
+
+.card-container> div> div.cashback{
+    width: 23%;
+    padding-left: 6%;
+}
+
+.card-container > div> div.discounts{
+    width:84%;
 }

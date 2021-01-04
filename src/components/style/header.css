@@ -1,0 +1,30 @@
+header{
+  width: 100%;
+  height: 76px; 
+  background-color: #ffffff;
+}
+header li a{
+  color: #9B55FF;
+  text-decoration: none;
+}
+.Header--ul-1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Header--ul-1-home{
+  margin-left: 34px;
+}
+.Header-logo{
+  width: 150px;
+  height: 39.71px;  
+}
+.Header--list{
+  position: relative;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+

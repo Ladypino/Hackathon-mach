@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import BenefitsResume from "../../components/BenefitsResume";
 import CoverPage from "../../components/Coverpage";
+import Download from "../../components/Download";
 import ProfilesResume from "../../components/ProfilesResume";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
       <CoverPage />
       <BenefitsResume />
       <ProfilesResume />
+      <Download />
     </Fragment>
   );
 };

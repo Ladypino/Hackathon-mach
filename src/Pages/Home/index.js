@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import BenefitsResume from "../../components/BenefitsResume";
 import CoverPage from "../../components/Coverpage";
 import Download from "../../components/Download";
+import GalleryViews from "../../components/Gallery";
 import ProfilesResume from "../../components/ProfilesResume";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
     <Fragment>
       <CoverPage />
       <BenefitsResume />
+      <GalleryViews/>
       <ProfilesResume />
       <Download />
     </Fragment>

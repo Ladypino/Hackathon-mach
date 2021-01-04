@@ -1,0 +1,55 @@
+.Download{
+  position: relative;
+  display: flex;
+  padding-left: 165px;
+  padding-right: 165px;
+  background-color: #F6F6F6;
+  width: 100%;
+  height: 491px;
+}
+.Download--ctn{
+  width: 561px;
+  height: 170px;
+}
+h1{
+  font-size: 2.5rem;
+  color: #18191F;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 55px;
+}
+.p1{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 25px;
+  color: #5F5F5F;
+}
+.p2{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 22px;
+  font-feature-settings: 'liga' off;
+  color: #5F5F5F;
+}
+.Download--icons{
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+.Dowload--icons--img{
+  width: 135px;
+  height: 40px;
+  margin-right: 12.87px;
+}
+.Download--mockup{
+  margin-left: 25px;
+  width: 270px;
+  height: 440px;
+  filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+}
+.Download--mockup2{
+  position: absolute;
+  bottom: 0;
+  filter: drop-shadow(0px 0px 0px rgba(41, 41, 42, 0.5));
+}

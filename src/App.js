@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="App h-100">
       <Header />
-
       <Routes />
       <Footer />
     </div>

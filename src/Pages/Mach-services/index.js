@@ -1,6 +1,11 @@
-import React from "react";
+import React, { Fragment } from "react";
+import ServiciosImg from "../../components/servicios";
 
 const MachServices = () => {
-  return <div>Holaaaa servicios</div>;
+  return (
+    <Fragment>
+      <ServiciosImg />
+    </Fragment>
+  );
 };
 export default MachServices;

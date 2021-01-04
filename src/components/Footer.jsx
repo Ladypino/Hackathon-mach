@@ -61,11 +61,11 @@ const Footer = () =>{
         <div className="row my-5">
             <div className="col-6">
                 <p>SÍGUENOS</p>
-                <img src={instagram} alt="" className="mr-2 h-40px"/>
-                <img src={facebook} alt="" className="mr-2 h-40px"/>
-                <img src={twitter} alt="" className="mr-2 h-40px"/>
-                <img src={youtube} alt="" className="mr-2 h-40px"/>
-                <img src={linkedin} alt="" className="h-40px"/>
+                <img src={instagram} alt="" className="mr-2 "/>
+                <img src={facebook} alt="" className="mr-2 "/>
+                <img src={twitter} alt="" className="mr-2 "/>
+                <img src={youtube} alt="" className="mr-2 "/>
+                <img src={linkedin} alt="" className=""/>
             
                
             </div>

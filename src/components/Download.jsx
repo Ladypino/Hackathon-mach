@@ -11,7 +11,7 @@ const Download = () => {
         <section className='Download'>
             <div style={{ paddingTop: '61.5px' }}>
                 <div className='Download--ctn'>
-                    <h1>Más de 2,8 millones de personas confían en nosotros</h1>
+                    <h1 className='Download--ctn-h1'>Más de 2,8 millones de personas confían en nosotros</h1>
                     <p className='p1'>Descarga la App. Regístrate con tus datos y haz MACH con todas las oportunidades que te ofrecemos.</p>
                 </div>
                 <div className='Download--icons'>

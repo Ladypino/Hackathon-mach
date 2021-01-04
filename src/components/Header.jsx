@@ -11,9 +11,9 @@ const Header = () => {
         <ul className='Header--list'>
           <div className='Header--ul-1'>
             <img className='Header-logo' src={logoMach} alt='Logo Mach' />
-            <li><a className='Header--ul-1-home' href='/home'>Home</a></li>
+            <li><a className='Header--ul-1-home' href='/Home'>Beneficios</a></li>
           </div>
-          <li><a className='Header--ul-2' href='/gastronomy'>Gastronomia</a></li>
+          <li><a className='Header--ul-2' href='/gastronomy'>Gastronomía</a></li>
           <li><a className='Header--ul-2' href='/shops'>Tiendas</a></li>
 
           <div className="dropdown">

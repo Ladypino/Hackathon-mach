@@ -1,0 +1,42 @@
+.slide{
+    background: #F8F7F4 !important;
+}
+.slide-container{
+    background-color: #F8F7F4;
+}
+
+.slide-container h2{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+}
+
+.slide-container h5{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.063rem;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #5F5F5F;
+    width:80%;
+    margin:auto;
+}
+
+.card-container{
+    display: flex;
+    width:70%;
+    margin: auto;
+    justify-content: center;
+    margin:3rem auto;
+}
+
+.card-container div{
+    width:50%
+}

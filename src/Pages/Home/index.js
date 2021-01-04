@@ -10,8 +10,8 @@ const Home = () => {
     <Fragment>
       <CoverPage />
       <BenefitsResume />
-      <GalleryViews/>
       <ProfilesResume />
+      <GalleryViews />
       <Download />
     </Fragment>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Puntos = () => {
+const Points = () => {
   return <div>Holaaaa</div>;
 };
-export default Puntos;
+export default Points;

@@ -31,7 +31,7 @@ const Download = () => {
             </div>
             <div>
                 <img className='Download--mockup' src={phoneMockup1} alt='Phone Mockup 1' />
-                <img className='Download--mockup' src={phoneMockup2} alt='Phone Mockup 2' />
+                <img className='Download--mockup Download--mockup2' src={phoneMockup2} alt='Phone Mockup 2' />
             </div>
         </section>
     )

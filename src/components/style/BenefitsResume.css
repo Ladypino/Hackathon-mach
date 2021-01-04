@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+.benefits-title{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+    margin-bottom:5rem;
+}
+
+.benefits-container{
+    display: flex;
+    justify-content: space-around;
+    width: 84%;
+    margin: auto auto 4.5rem auto;
+}
+
+.benefits-container>div{
+    width: 28%;
+    text-align:center;
+}
+
+.benefits-container>div>img{
+    width: 35%;
+    margin: auto;
+}
+
+.benefits-container>div>h5{
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 2.063rem;
+text-align: center;
+font-feature-settings: 'liga' off;
+color: #5F5F5F;
+margin: 3rem auto 0;
+}
+
+.benefits-container>div>p{
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 1.125rem;
+line-height: 1.563rem;
+text-align: center;
+font-feature-settings: 'liga' off;
+color: #5F5F5F;
+margin:.3rem auto;
+}

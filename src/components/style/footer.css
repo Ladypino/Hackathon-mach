@@ -1,0 +1,42 @@
+.containerFooter {
+  background-color: #6200ee;
+  color: #ffffff;
+}
+
+.h-40px {
+  height: 40px;
+}
+
+a {
+  color: #ffffff;
+}
+
+.number-box {
+  color: #ffffff;
+  padding: 8px 0px 2px 4px;
+  border-top: 0px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 1px solid #ffffff;
+  border-left: 0px solid transparent;
+  background-color: transparent;
+  width: 250px;
+  max-width: 100%;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline;
+}
+
+.btn-descargar {
+  width: auto;
+  text-align: center;
+  padding: 10px 30px;
+  background: #9b55ff;
+  border-radius: 8px;
+  border: 0px solid transparent;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}

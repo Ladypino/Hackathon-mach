@@ -2,8 +2,8 @@ import React from "react";
 import Routes from "./routes";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (

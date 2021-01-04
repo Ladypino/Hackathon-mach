@@ -1,6 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
+import HeroPoints from '../../components/HeroPoints';
+import HowToAccumulate from "../../components/HowToAccumulate";
 
 const Points = () => {
-  return <div>Holaaaa</div>;
+  return(
+    <Fragment>
+      <HeroPoints/>
+      <HowToAccumulate />
+    </Fragment>
+  )
 };
 export default Points;

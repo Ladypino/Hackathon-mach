@@ -11,7 +11,7 @@ const Header = () => {
         <ul className='Header--list'>
           <div className='Header--ul-1'>
             <img className='Header-logo' src={logoMach} alt='Logo Mach' />
-            <li><a className='Header--ul-1-home' href='/Home'>Home</a></li>
+            <li><a className='Header--ul-1-home' href='/home'>Home</a></li>
           </div>
           <li><a className='Header--ul-2' href='/gastronomy'>Gastronomia</a></li>
           <li><a className='Header--ul-2' href='/shops'>Tiendas</a></li>
@@ -30,8 +30,8 @@ const Header = () => {
             </div>
           </div>
 
-          <li><a className='Header--ul-2' href='/Puntos'>Puntos</a></li>
-          <li><a className='Header--ul-2 help' href='/Ayuda'>Ayuda</a></li>
+          <li><a className='Header--ul-2' href='/points'>Puntos</a></li>
+          <li><a className='Header--ul-2 help' href='/help'>Ayuda</a></li>
           <DownloadButton />
         </ul>
       </nav>

@@ -1,0 +1,25 @@
+.Gastronomy--CoverPage--ctn{
+  position: absolute;
+    width: 546px;
+    height: 110px;
+    left: 166px;
+    top: 150px;
+}
+.Gastronomy--CoverPage--ctn-h1{
+  font-size: 2.5rem;
+  color: #18191F;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 55px;
+}
+.Gastronomy--CoverPage--ctn-h3{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  color:#18191F
+}
+.Gastronomy--CoverPage--img{
+  width: 100%;
+  height: 572px;
+}

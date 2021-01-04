@@ -25,9 +25,7 @@ const Download = () => {
                         <img className='Dowload--icons--img' src={appgallery} alt="App Gallery" target="_blank" without rel="noreferrer" />
                     </a>
                 </div>
-                <div className='Download--ctn'>
-                    <p className='p2'>Asegúrate de tener a mano tu cédula de identidad vigente. Debes ser mayor de 18 años.</p>
-                </div>
+                <p className='p2'>Asegúrate de tener a mano tu cédula de identidad vigente. <br />Debes ser mayor de 18 años.</p>
             </div>
             <div>
                 <img className='Download--mockup' src={phoneMockup1} alt='Phone Mockup 1' />

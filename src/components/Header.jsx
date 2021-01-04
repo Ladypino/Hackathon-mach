@@ -30,8 +30,8 @@ const Header = () => {
             </div>
           </div>
 
-          <li><a className='Header--ul-2' href='/Puntos'>Puntos</a></li>
-          <li><a className='Header--ul-2 help' href='/Ayuda'>Ayuda</a></li>
+          <li><a className='Header--ul-2' href='/points'>Puntos</a></li>
+          <li><a className='Header--ul-2 help' href='/help'>Ayuda</a></li>
           <DownloadButton />
         </ul>
       </nav>

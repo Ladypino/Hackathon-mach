@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Pages/Home";
 import Gastronomy from "./Pages/Gastronomy";
+import Sushiblue from "./components/SushiBlueGastronomy";
 import Help from "./Pages/Help";
 import Points from "./Pages/Points";
 import MachServices from "./Pages/Mach-services";
@@ -12,6 +13,7 @@ const Routes = () => {
   return (
     <Router>
       <Switch>
+        <Route path="/gastronomy/sushiblue" component={Sushiblue} />
         <Route path="/gastronomy" component={Gastronomy} />
         <Route path="/help" component={Help} />
         <Route path="/points" component={Points} />

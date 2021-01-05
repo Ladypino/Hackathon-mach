@@ -1,22 +1,22 @@
-.hero-points{
+.hero-sale{
     width:100%;
     height: 572px;
     background-image: url('../../images/hero-sale.jpeg');
     background-size: cover;
-    background-position: center;
+    background-position-y: 18%;
 }
 
-.hero-points > div{
+.hero-sale > div{
     width:65%;
     padding: 8% 11.5%;
 }
 
-.hero-points > div > nav > ol{
+.hero-sale > div > nav > ol{
     list-style: none;
     display: flex;
     padding:0 0 12%;
 }
-.points-breadcrumbs {
+.sale-breadcrumbs {
     font-style: normal;
     font-weight: normal;
     font-size: 0.875rem;
@@ -27,7 +27,7 @@
     list-style: none;
 }
 
-.points-breadcrumb-item::after {
+.sale-breadcrumb-item::after {
     display: inline-block;
     padding-right: .5rem;
     padding-left: .5rem;
@@ -35,11 +35,11 @@
     content: ">";
 }
 
-.points-breadcrumbs a{
+.sale-breadcrumbs a{
     color: #5F5F5F;
 }
 
-.points-breadcrumbs a:hover{
+.sale-breadcrumbs a:hover{
     color: #18191F;
     text-decoration: none;
 }
@@ -48,12 +48,12 @@
     color: #6c757d;
 }
 
-.points-breadcrumb-item-active{
+.sale-breadcrumb-item-active{
     color: #6200EE;
     font-weight: 600;
 }
 
-.hero-points > div> h1{
+.hero-sale > div> h1{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -63,7 +63,7 @@
     color: #18191F;
 }
 
-.hero-points > div >h3{
+.hero-sale > div >h3{
 font-family: 'Nunito', sans-serif;
 font-style: normal;
 font-weight: normal;

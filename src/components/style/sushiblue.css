@@ -1,14 +1,91 @@
-.Gastronomy--items{
+.Gastronomy--item{
     position: relative;
+    padding-left: 166px;
+    padding-right: 166px;
+    padding-top: 127px;
+    padding-bottom: 127px;
+    display: flex;
+}
+.Gastronomy--caption--item {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.125rem;
+    padding-left: 10px;
+    position: absolute;
+    left: 166px;
+    top: 22%;
+    z-index: 10;
+    background: #9B55FF;
+    color: #F8F7F4;
 }
 .Gastronomy--caption, .Gastronomy--caption2 {
-    width: 207px;
-    height: 40px;
+    padding: 10px;
     font-weight: bold;
     font-size: 1.125rem;
     padding-left: 10px;
     position: absolute;
     left: 0;
-    top: 10%;
+    top: 15%;
     z-index: 10;
+}
+.sushiblue--img{
+    width: 561px;
+    height: 484.15px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+}
+.Gastronomy--description{
+    padding-left: 66px;
+    padding-top: 30px;
+}
+.description--title{
+    color: #6200EE;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    padding-bottom: 26px;
+}
+.strong{
+    color: #5F5F5F;
+    padding-bottom: 14px;
+}
+.p1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 25px;
+    color: #5F5F5F;
+}
+.p2{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 22px;
+    color: #5F5F5F;
+}
+.description--about{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 22px;
+    color: #009189;
+}
+.explore--title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 44px;
+    color: #5F5F5F;
+    text-align: center;
+}
+.explore-container {
+    padding: 78px 165px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    grid-gap: 20px;
+    gap: 20px;
 }

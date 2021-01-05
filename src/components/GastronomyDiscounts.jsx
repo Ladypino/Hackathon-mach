@@ -1,9 +1,10 @@
 import React from 'react';
-import HouseBar from '../images/house-bar.jpg';
 import HouseBar1 from '../images/house-bar1.jpg';
 import Starbuks from '../images/starbuks.png';
 import Rappi from '../images/rappi.jpg';
+import HouseBar from '../images/house-bar.jpg';
 import Doggis from '../images/doggis.jpg';
+import Sushiblue from '../images/sushi.png';
 import './style/gastronomyDiscounts.css';
 
 const GastronomyDiscounts = () => {
@@ -18,7 +19,7 @@ const GastronomyDiscounts = () => {
         <div className='Gastronomy--caption2'>2x1 Doggis</div>
       </div>
       <div className='Gastronomy--items'> <a href="/gastronomy/sushiblue">
-        <img className='Gastronomy--img' src={Starbuks} alt="Sushi Blue" />
+        <img className='Gastronomy--img' src={Sushiblue} alt="Sushi Blue" />
         <div className='Gastronomy--caption'>20% Sushi Blue</div>
       </a>
       </div>

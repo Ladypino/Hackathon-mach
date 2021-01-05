@@ -15,14 +15,14 @@ const Download = () => {
                     <p className='p1'>Descarga la App. Regístrate con tus datos y haz MACH con todas las oportunidades que te ofrecemos.</p>
                 </div>
                 <div className='Download--icons'>
-                    <a href="https://play.google.com/store/apps/details?id=cl.bci.sismo.mach&hl=en&gl=US" target="_blank" without rel="noreferrer">
+                    <a href="https://play.google.com/store/apps/details?id=cl.bci.sismo.mach&hl=en&gl=US" target="_blank" without="true" rel="noreferrer">
                         <img className='Dowload--icons--img' src={googleplay} alt="Google Play" />
                     </a>
-                    <a href="https://apps.apple.com/cl/app/mach-compra-paga-comparte/id1262116570" target="_blank" without rel="noreferrer">
+                    <a href="https://apps.apple.com/cl/app/mach-compra-paga-comparte/id1262116570" target="_blank" without="true" rel="noreferrer">
                         <img className='Dowload--icons--img' src={appstore} alt="App Store" />
                     </a>
                     <a href="https://appgallery.huawei.com/#/app/C101242163">
-                        <img className='Dowload--icons--img' src={appgallery} alt="App Gallery" target="_blank" without rel="noreferrer" />
+                        <img className='Dowload--icons--img' src={appgallery} alt="App Gallery" target="_blank" without="true" rel="noreferrer" />
                     </a>
                 </div>
                 <p className='p2'>Asegúrate de tener a mano tu cédula de identidad vigente. <br />Debes ser mayor de 18 años.</p>

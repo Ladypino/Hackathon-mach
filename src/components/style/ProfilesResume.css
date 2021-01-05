@@ -1,3 +1,11 @@
+#root > div > div.carousel-root > div > ul > li.dot{
+    background-color: #C4C4C4;
+}
+
+#root > div > div.carousel-root > div > ul > li.dot.selected{
+    background-color: #5F5F5F;
+}
+
 .slide{
     background: #F8F7F4 !important;
 }

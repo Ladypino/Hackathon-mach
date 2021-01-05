@@ -8,10 +8,37 @@
 
 .services-title {
   position: absolute;
-  margin-top: -180px;
+  margin-top: -270px;
+  font-size: 14px;
   z-index: 2;
+  font-weight: bold;
+  font-family: "nunito";
+  width: 195px;
+}
+
+.card1 {
   background-color: #6200ee;
   color: #ffffff;
-  font-family: "nunito";
-  width: 200px;
+}
+.card2 {
+  background-color: #defffd;
+  color: #18191f;
+}
+
+.card3 {
+  background-color: #6200ee;
+  color: #ffffff;
+}
+.card4 {
+  background-color: #defffd;
+  color: #18191f;
+}
+
+.card5 {
+  background-color: #6200ee;
+  color: #ffffff;
+}
+.card6 {
+  background-color: #defffd;
+  color: #18191f;
 }

@@ -1,0 +1,14 @@
+.Gastronomy--items{
+    position: relative;
+}
+.Gastronomy--caption, .Gastronomy--caption2 {
+    width: 207px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 1.125rem;
+    padding-left: 10px;
+    position: absolute;
+    left: 0;
+    top: 10%;
+    z-index: 10;
+}

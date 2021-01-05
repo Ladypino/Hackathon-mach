@@ -1,0 +1,97 @@
+.sale-day-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 10%;
+    box-sizing: border-box;
+}
+
+.sale-day-picture-container{
+    width:50%;
+}
+
+.sale-day-picture-container > div{
+    position: relative;
+    width: 95%;
+}
+
+.sale-day-picture-container > div > img{
+    width:100%;
+    border-radius: .5rem;
+}
+
+.sale-day-picture-container > div > p {
+    position: absolute;
+    top: 3%;
+    left: 0.1rem;
+    width: 40%;
+    padding-left: 3%;
+    background: #DEFFFD;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 2.5rem;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+}
+
+.sale-day-info{
+    width: 50%;
+    padding: 2% 2%;
+}
+
+.sale-day-info > h4{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    font-feature-settings: 'liga' off;
+    color: #6200EE;
+    margin-bottom: 5%;
+}
+
+.sale-day-info > p{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.563rem;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'liga' off;
+    color: #5F5F5F;
+}
+
+.sale-day-info > p:nth-child(3){
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.563rem;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+}
+
+.sale-day-info > p:nth-child(5){
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-feature-settings: 'liga' off;
+    color: #009189;
+}
+
+.sale-day-info > ol{
+    padding: 0 3%;
+}
+
+.sale-day-info > ol > li{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    color: #5F5F5F;
+}

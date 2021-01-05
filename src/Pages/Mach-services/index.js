@@ -1,6 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
+import CardsServices from "../../components/CardsServices";
+import MenuServices from "../../components/menuServices";
+import ServiciosImg from "../../components/servicios";
 
 const MachServices = () => {
-  return <div>Holaaaa servicios</div>;
+  return (
+    <Fragment>
+      <ServiciosImg />
+      <MenuServices />
+      <CardsServices />
+    </Fragment>
+  );
 };
 export default MachServices;

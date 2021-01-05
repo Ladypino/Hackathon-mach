@@ -1,10 +1,11 @@
 import React from 'react';
+import CoverPageGastronomy from '../components/CoverPageGastronomy';
 
 const SushiBlueGastronomy = () => {
     return (
-        <div>
+        <section>
 
-        </div>
+        </section>
     )
 };
 

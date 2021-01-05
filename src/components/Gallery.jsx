@@ -15,9 +15,7 @@ import image3 from '../images/Gallery/image3.png'
 import image7 from '../images/Gallery/image7.png'
 import image5 from '../images/Gallery/image5.png'
 import image6 from '../images/Gallery/image6.png'
-import { Link } from 'react-router-dom';
-import { ButtonToggle } from 'reactstrap';
-import { Button } from 'bootstrap';
+
 
 
 const GalleryViews =() =>{
@@ -25,7 +23,6 @@ const GalleryViews =() =>{
   const photos = [
     {
       src:image1,
-      placement:"bottom",
       width: 4,
       height: 7,
       className:'image1',

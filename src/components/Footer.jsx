@@ -66,10 +66,10 @@ const Footer = () =>{
         <div className="row my-5 text-center text-md-left">
             <div className="col-md-6 pb-5 pb-md-0">
                 <p>SÍGUENOS</p>
-                <img src={instagram} alt="" className="mr-2 "/>
-                <img src={facebook} alt="" className="mr-2 "/>
-                <img src={twitter} alt="" className="mr-2 "/>
-                <img src={youtube} alt="" className="mr-2 "/>
+                <img src={instagram} alt="" className="mr-3 "/>
+                <img src={facebook} alt="" className="mr-3 "/>
+                <img src={twitter} alt="" className="mr-3 "/>
+                <img src={youtube} alt="" className="mr-3 "/>
                 <img src={linkedin} alt="" className=""/>
             
                

@@ -53,9 +53,10 @@
 .Gastronomy--ctn-h3{
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 38px;
-  color:#18191F
+  color:#5F5F5F;
+  width: 525px;
 }
 .Gastronomy--img{
   width: 100%;

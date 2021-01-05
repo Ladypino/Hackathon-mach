@@ -13,7 +13,7 @@ import logoBci from '../images/logo-bci.png';
 const Footer = () =>{
     return (
 <div className= 'containerFooter h-100'>
-    <div className='container'>
+    <div className='container pt-5'>
         <div className='row mt-5 text-center text-md-left'>
             <div className='col-md-6 mt-5'>
                 <div className="text-box">

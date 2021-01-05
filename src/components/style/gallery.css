@@ -5,6 +5,8 @@
   width: 100%;
   justify-content: center;
   padding: -25%;
+  margin-top: 3rem;
+ 
 }
 
 /* Create four equal columns that sits next to each other */
@@ -21,6 +23,30 @@
 }
 .image8{
     height: 30.5rem;
+}
+.texth2{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+    margin-top: 3rem;
+}
+
+.texth5{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.063rem;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #5F5F5F;
+    width:80%;
+    margin:auto;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

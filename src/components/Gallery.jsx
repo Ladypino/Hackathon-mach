@@ -18,7 +18,10 @@ const GalleryViews =() =>{
  
   return (
     <Fragment>
-
+ <div className="container-gallery1">
+                <h2 className="texth2">MACH Beneficios</h2>
+                <h5 className="texth5"> Te ofrecemos gran variedad de descuentos, para disfrutar y hasta impulsar tu carrera profesional. Además, prepárate para canjear tus Puntos MACH pensados en ti.</h5>
+            </div>
     <div class="container-gallery">
 
    <div class="column">

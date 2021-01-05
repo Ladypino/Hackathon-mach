@@ -6,7 +6,13 @@ const CoverPageGastronomy = () => {
   return (
     <div className='Gastronomy'>
       <div>
-        <p className='Gastronomy--migas'>Home &gt; Beneficios &gt; <strong className='migas--strong'>Gastronomía</strong></p>
+        <nav aria-label="breadcrumb">
+          <ol className="Gastronomy--migas">
+            <li className="gastronomy-item"><a href="/home">Home</a></li>
+            <li className="gastronomy-item"><a href="/home">Beneficios</a></li>
+            <li className="gastronomy-item migas--strong" aria-current="page">Gastronomía</li>
+          </ol>
+        </nav>
       </div>
       <div className='Gastronomy--ctn' >
         <h1 className='Gastronomy--ctn-h1'>Una rica experiencia siempre se comparte</h1>

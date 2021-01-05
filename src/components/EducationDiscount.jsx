@@ -27,6 +27,11 @@ const EducationDiscount = () => {
     <br/>
     <br/>
     <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     <div className="container">
       <div className="row">
         <div className="col-4 my-5">

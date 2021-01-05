@@ -14,7 +14,6 @@ const Home = () => {
       <ProfilesResume />
       <GalleryViews />
       <Download />
-     <EducationDiscount/>
     </Fragment>
   );
 };

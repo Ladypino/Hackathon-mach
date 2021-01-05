@@ -10,7 +10,7 @@ const MenuServices = (props) => {
           <NavLink href="#" className='links '>Todos</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#" className='links '>Educación</NavLink>
+          <NavLink href="/mach-services/education-discount" className='links '>Educación</NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="#" className='links '>Delivery</NavLink>

@@ -1,37 +1,28 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Card, Button, CardTitle, CardText } from 'reactstrap';
-import headerEducation from '../images/headerEducation.jpg';
+import headerEducation from '../images/headerEducation.jpeg';
 import gallery3 from '../images/Gallery/gallery3.jpg'
+import './style/EducationDiscount.css';
 
-const Example = (props) => {
+const EducationDiscount = (props) => {
   return (
-    <div>
-     <section>
-            <div className='Gastronomy--CoverPage--ctn'>
-                <p>Home > Beneficios > Gastronomía</p>
-
-                <h1 className='Gastronomy--CoverPage--ctn-h1'>Una rica experiencia siempre se comparte</h1>
-                <h3 className='Gastronomy--CoverPage--ctn-h3'>Prepárate para disfrutar los descuentos y promociones en gatronomía que MACH trae para ti.</h3>
+      <Fragment>
+  <section>
+      <div className='CoverPage--ctn'>
+        <h1 className='Education-h1'>Ser #MACHLovers tiene su recompensa</h1>
+        <h3 className='Education-h3'>En MACH, premiamos tu lealtad con los mejores y más exclusivos beneficios.</h3>
+      </div>
+      <img className='Education-img-header' src={headerEducation} alt='Portada Mach Beneficios' />
+     
+    </section>
+  <div className='Education-container'>
+            <div className='Gastronomy--items'>
+                <img className='Education-img' src={gallery3}  alt="House Bar"  />
+                <div className='EducationBenefit'>80% Code House</div>
             </div>
-            <img className='Gastronomy--CoverPage--img' src={headerEducation} alt='Portada Mach Beneficios Gastronomía' />
-        </section>
-      <Card body>
-        <CardTitle tag="h5">Special Title Treatment</CardTitle>
-        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        <Button>Go somewhere</Button>
-      </Card>
-      <Card body className="text-center">
-        <CardTitle tag="h5">Special Title Treatment</CardTitle>
-        <CardText> <img className='Gastronomy--CoverPage--img' src={gallery3} alt='Portada Mach Beneficios Gastronomía' /></CardText>
-        <Button>Go somewhere</Button>
-      </Card>
-      <Card body className="text-right">
-        <CardTitle tag="h5">Special Title Treatment</CardTitle>
-        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        <Button>Go somewhere</Button>
-      </Card>
-    </div>
+            </div>
+            </Fragment>
   );
 };
 
-export default Example;
+export default EducationDiscount;

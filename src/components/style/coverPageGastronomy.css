@@ -1,25 +1,43 @@
-.Gastronomy--CoverPage--ctn{
-  position: absolute;
-    width: 546px;
-    height: 110px;
-    left: 166px;
-    top: 150px;
+.Gastronomy{
+  width:100%;
+  height: 572px;
+  background-image: url('../../images/coverpage-gastronomy.jpg');
+  background-size: cover;
+  background-position: center;
 }
-.Gastronomy--CoverPage--ctn-h1{
+.Gastronomy > div{
+  padding-left: 166px;
+  padding-top: 117px;
+}
+.Gastronomy--ctn {
+  width: 65%;
+  padding: 15% 10%;
+}
+.Gastronomy--migas{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #5F5F5F;
+}
+.migas--strong{
+  color: #6200EE;
+}
+.Gastronomy--ctn-h1{
   font-size: 2.5rem;
   color: #18191F;
   font-weight: normal;
   font-style: normal;
   line-height: 55px;
 }
-.Gastronomy--CoverPage--ctn-h3{
+.Gastronomy--ctn-h3{
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
   line-height: 38px;
   color:#18191F
 }
-.Gastronomy--CoverPage--img{
+.Gastronomy--img{
   width: 100%;
   height: 572px;
 }

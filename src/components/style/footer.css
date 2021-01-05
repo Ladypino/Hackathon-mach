@@ -45,6 +45,7 @@
   font-size: 18px;
   font-weight: 400;
   display: inline;
+  outline: none;
 }
 
 .btn-descargar {

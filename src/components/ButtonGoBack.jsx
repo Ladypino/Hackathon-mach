@@ -1,10 +1,10 @@
 import React from 'react';
 import './style/buttonGoBack.css';
 
-const ButtonGoBack = () => {
+const ButtonGoBack = (props) => {
     return (
         <button className='Btn--goback'>
-            <a href="/gastronomy">Volver</a>
+            <a href={props.route}>Volver</a>
         </button>
     )
 };

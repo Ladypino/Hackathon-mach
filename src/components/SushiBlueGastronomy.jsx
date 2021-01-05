@@ -24,7 +24,7 @@ const SushiBlueGastronomy = () => {
                     <span className='description--about'>Debes saber</span>
                     <p className='p2'>1. Promoción válida hasta el 31 de Enero de 2021. <br />
                     2. No acumulable con otras promociones ni beneficios.</p>
-                    <ButtonGoBack />
+                    <ButtonGoBack route='/gastronomy' />
                 </div>
             </div>
             <h2 className='explore--title'>También podría interesarte</h2>

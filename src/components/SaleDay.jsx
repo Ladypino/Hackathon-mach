@@ -4,7 +4,7 @@ import ButtonGoBack from './ButtonGoBack';
 import './style/saleDay.css';
 
 const SaleDay = () => {
-    return(
+    return (
         <div className="sale-day-container">
             <div className="sale-day-picture-container">
                 <div>
@@ -23,7 +23,7 @@ const SaleDay = () => {
                     <li>No acumulable con otras promociones ni beneficios.</li>
                     <li>Valido para café y frappuccinos tamaño venti.</li>
                 </ol>
-                <ButtonGoBack/>
+                <ButtonGoBack route='/home' />
             </div>
         </div>
     )

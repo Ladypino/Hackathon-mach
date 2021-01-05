@@ -25,7 +25,7 @@ const MenuServices = (props) => {
           <NavLink href="#" className='links '>Viajes</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#" className='links'>Telefonia</NavLink>
+          <NavLink href="/mach-services/telephony-discount" className='links'>Telefonia</NavLink>
         </NavItem>
       
       </Nav>

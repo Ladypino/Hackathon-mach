@@ -19,8 +19,8 @@ const GalleryViews =() =>{
     {
       src:image1,
       placement:"bottom",
-      width: 5,
-      height: 6,
+      width: 4,
+      height: 7,
       className:'image1',
      
     },
@@ -31,30 +31,30 @@ const GalleryViews =() =>{
       className:'image2'
     },
     {
-      src: image3,
+      src: image7,
       width: 3,
-      height: 4,
-      className:'image3'
+      height: 6,
+      className:'image7'
     },
     {
-      src:image7,
+      src:image6,
       width: 3,
       height: 4,
-      className:'image7'
+      className:'image6'
    
     },
     {
       src: image5,
-      width: 3,
-      height: 3,
+      width: 8,
+      height: 6,
       className:'image5',
     
     },
     {
-      src: image6,
+      src: image3,
       width: 4,
       height: 3,
-      className:'image6'
+      className:'image3'
     },
     
   ];

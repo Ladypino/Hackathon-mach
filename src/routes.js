@@ -19,7 +19,7 @@ const Routes = () => {
         <Route path="/help" component={Help} />
         <Route path="/points" component={Points} />
         <Route path="/mach-services/education-discount" component={EducationDiscount} />
-        <Route path="/mach-services/telephonic-discount" component={TelephonyDiscount} />
+        <Route path="/mach-services/telephony-discount" component={TelephonyDiscount} />
         <Route path="/mach-services" component={MachServices} />
        
         <Route path="/shops" component={Shops} />

@@ -1,28 +1,46 @@
 import React, { Fragment } from 'react';
-import { Card, Button, CardTitle, CardText } from 'reactstrap';
-import headerEducation from '../images/headerEducation.jpeg';
-import gallery3 from '../images/Gallery/gallery3.jpg'
-import './style/EducationDiscount.css';
 
-const EducationDiscount = (props) => {
-  return (
+
+import gastronomia from '../images/gastronomia.png';
+
+import './style/servicios.css';
+
+import MenuServices from './menuServices';
+
+
+ 
+
+const EducationDiscount = () => {
+  return  (
       <Fragment>
-  <section>
-      <div className='CoverPage--ctn'>
-        <h1 className='Education-h1'>Ser #MACHLovers tiene su recompensa</h1>
-        <h3 className='Education-h3'>En MACH, premiamos tu lealtad con los mejores y más exclusivos beneficios.</h3>
-      </div>
-      <img className='Education-img-header' src={headerEducation} alt='Portada Mach Beneficios' />
+    <div className='services-page'>
+        <div>
+          <h1>La vida está llena de oportunidades</h1>
+          <h3>Y en MACH queremos brindartelas todas o por lo menos las que más te gustan.</h3>
+        </div>
+<MenuServices/>
      
-    </section>
-  <div className='Education-container'>
-            <div className='Gastronomy--items'>
-                <img className='Education-img' src={gallery3}  alt="House Bar"  />
-                <div className='EducationBenefit'>80% Code House</div>
-            </div>
-            </div>
-            </Fragment>
-  );
+     
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div className="container">
+      <div className="row">
+        <div className="col-4 my-5">
+          <div className="container-Education">
+            <img src={gastronomia} alt="" className="img-fluid services-images"/>
+          </div>
+         
+        </div>
+        </div>
+        </div>
+        </Fragment>
+  )
+   
+  
 };
 
 export default EducationDiscount;

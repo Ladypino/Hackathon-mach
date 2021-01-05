@@ -6,6 +6,7 @@ import Help from "./Pages/Help";
 import Points from "./Pages/Points";
 import MachServices from "./Pages/Mach-services";
 import Shops from "./Pages/Shops";
+import EducationDiscount from "./components/EducationDiscount"
 
 const Routes = () => {
   return (
@@ -14,7 +15,9 @@ const Routes = () => {
         <Route path="/gastronomy" component={Gastronomy} />
         <Route path="/help" component={Help} />
         <Route path="/points" component={Points} />
+        <Route path="/mach-services/education-discount" component={EducationDiscount} />
         <Route path="/mach-services" component={MachServices} />
+       
         <Route path="/shops" component={Shops} />
         <Route path="/" component={Home} />
       </Switch>

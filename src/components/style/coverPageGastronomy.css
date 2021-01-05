@@ -1,25 +1,65 @@
-.Gastronomy--CoverPage--ctn{
-  position: absolute;
-    width: 546px;
-    height: 110px;
-    left: 166px;
-    top: 150px;
+.Gastronomy{
+  width:100%;
+  height: 572px;
+  background-image: url('../../images/coverpage-gastronomy.jpg');
+  background-size: cover;
+  background-position: center;
 }
-.Gastronomy--CoverPage--ctn-h1{
+.Gastronomy > div{
+  padding-left: 166px;
+  padding-top: 70px;
+}
+.Gastronomy--ctn {
+  width: 65%;
+  padding: 15% 10%;
+}
+.Gastronomy--migas{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 19px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.75rem 0.2rem;
+  list-style: none;
+}
+.gastronomy-item+.gastronomy-item::before {
+  display: inline-block;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  color: #6c757d;
+  content: ">";
+}
+.Gastronomy--migas a{
+  color: #5F5F5F;
+}
+.Gastronomy--migas a:hover{
+  color: #18191F;
+  text-decoration: none;
+}
+.breadcrumb-item,  .active {
+    color: #6c757d;
+}
+.migas--strong{
+  color: #6200EE;
+  font-weight: 600;
+}
+.Gastronomy--ctn-h1{
   font-size: 2.5rem;
   color: #18191F;
   font-weight: normal;
   font-style: normal;
   line-height: 55px;
 }
-.Gastronomy--CoverPage--ctn-h3{
+.Gastronomy--ctn-h3{
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 38px;
-  color:#18191F
+  color:#5F5F5F;
+  width: 525px;
 }
-.Gastronomy--CoverPage--img{
+.Gastronomy--img{
   width: 100%;
   height: 572px;
 }

@@ -8,15 +8,57 @@
 
 .hero-points > div{
     width:65%;
-    padding: 15% 10%;
+    padding: 8% 11.5%;
+}
+
+.hero-points > div > nav > ol{
+    list-style: none;
+    display: flex;
+    padding:0 0 12%;
+}
+.points-breadcrumbs {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 19px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.75rem 0.2rem;
+    list-style: none;
+}
+
+.points-breadcrumb-item::after {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #6c757d;
+    content: ">";
+}
+
+.points-breadcrumbs a{
+    color: #5F5F5F;
+}
+
+.points-breadcrumbs a:hover{
+    color: #18191F;
+    text-decoration: none;
+}
+
+.breadcrumb-item,  .active {
+    color: #6c757d;
+}
+
+.points-breadcrumb-item-active{
+    color: #6200EE;
+    font-weight: 600;
 }
 
 .hero-points > div> h1{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
-    line-height: 55px;
+    font-size: 2.5rem;
+    line-height: 3.438rem;
     text-align: left;
     color: #18191F;
 }
@@ -25,8 +67,8 @@
 font-family: 'Nunito', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 28px;
-line-height: 38px;
+font-size: 1.75rem;
+line-height: 2.375rem;
 text-align: left;
 color: #5F5F5F;
 }

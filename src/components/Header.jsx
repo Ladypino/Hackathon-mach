@@ -10,7 +10,7 @@ const Header = () => {
       <nav>
         <ul className='Header--list'>
           <div className='Header--ul-1'>
-            <img className='Header-logo' src={logoMach} alt='Logo Mach' />
+            <a href="https://www.somosmach.com/"><img className='Header-logo' src={logoMach} alt='Logo Mach' /></a>
             <li><a className='Header--ul-1-home' href='/Home'>Beneficios</a></li>
           </div>
           <li><a className='Header--ul-2' href='/gastronomy'>Gastronomía</a></li>
@@ -21,7 +21,7 @@ const Header = () => {
             <a className="dropdown-toggle Header--ul-2" href="/mach-service" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Services</a> */}
 
-            {/* <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          {/* <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdownlist"><a href="/mach-service/education">Educación</a></li>
               <li className="dropdownlist"><a href="/mach-service/delivery">Delivery</a></li>
               <li className="dropdownlist"><a href="/mach-service/health">Salud</a></li>

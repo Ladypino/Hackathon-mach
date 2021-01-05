@@ -4,9 +4,7 @@ import React from "react";
 
 import Gallery from "react-photo-gallery";
 
-import HeroSale from "./HeroSaleOfTheDay"
-import SaleDay from "./SaleDay"
-import SaleOfTheDay from "../Pages/Sale-of-the-day";
+
 
 
 import image1 from '../images/Gallery/image1.png'
@@ -53,8 +51,7 @@ const GalleryViews =() =>{
       width: 8,
       height: 6,
       className:'image5',
-      href: "/Sale-of-the-day",
-      http:'//localhost:3000/sale-of-the-day',
+     
     
     
     },

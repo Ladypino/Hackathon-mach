@@ -6,11 +6,12 @@
 }
 
 .sale-day-picture-container{
-    width:45%;
+    width:50%;
 }
 
 .sale-day-picture-container > div{
-    position:relative;
+    position: relative;
+    width: 95%;
 }
 
 .sale-day-picture-container > div > img{
@@ -20,10 +21,10 @@
 
 .sale-day-picture-container > div > p {
     position: absolute;
-    top:10%;
-    left: 0.2rem;
-    width:45%;
-    padding-left: 4%;
+    top: 3%;
+    left: 0.1rem;
+    width: 40%;
+    padding-left: 3%;
     background: #DEFFFD;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -35,8 +36,8 @@
 }
 
 .sale-day-info{
-    width:45%;
-    padding: 4% 2%;
+    width: 50%;
+    padding: 2% 2%;
 }
 
 .sale-day-info > h4{
@@ -47,6 +48,7 @@
     line-height: 2.125rem;
     font-feature-settings: 'liga' off;
     color: #6200EE;
+    margin-bottom: 5%;
 }
 
 .sale-day-info > p{

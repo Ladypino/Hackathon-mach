@@ -4,6 +4,10 @@ import React from "react";
 
 import Gallery from "react-photo-gallery";
 
+import HeroSale from "./HeroSaleOfTheDay"
+import SaleDay from "./SaleDay"
+import SaleOfTheDay from "../Pages/Sale-of-the-day";
+
 
 import image1 from '../images/Gallery/image1.png'
 import image2 from '../images/Gallery/image2.png'
@@ -11,6 +15,9 @@ import image3 from '../images/Gallery/image3.png'
 import image7 from '../images/Gallery/image7.png'
 import image5 from '../images/Gallery/image5.png'
 import image6 from '../images/Gallery/image6.png'
+import { Link } from 'react-router-dom';
+import { ButtonToggle } from 'reactstrap';
+import { Button } from 'bootstrap';
 
 
 const GalleryViews =() =>{
@@ -41,6 +48,7 @@ const GalleryViews =() =>{
       width: 3,
       height: 4,
       className:'image6'
+      
    
     },
     {
@@ -48,6 +56,9 @@ const GalleryViews =() =>{
       width: 8,
       height: 6,
       className:'image5',
+      href: "/Sale-of-the-day",
+      http:'//localhost:3000/sale-of-the-day',
+    
     
     },
     {

@@ -37,12 +37,14 @@ En este proceso investigativo realizamos:
 
 * Benchmark (Estudio de mercado, directo e indirecto).
 * Entrevista con Usuarios: (Conocer opiniones sobre el sitio actual y encontrar ideas para potenciarlo).
-     [Mario Rocca]()
-     []()
-     []()
-     []()
+     [Mario Rocca](https://drive.google.com/drive/folders/1PNE_NR9NlQWFkVEwJxddpj4pXSuYIa37)
+     [Francisco Maduro](https://drive.google.com/drive/folders/1PNE_NR9NlQWFkVEwJxddpj4pXSuYIa37)
 * User Persona (Personaje ficticio que representa un usuario de la plataforma).
 * Insights (Descubrimientos).
+    1. Navegación: Los usuarios desean encontrarse con información clara, rápida, precisa y por filtros, respecto a los beneficios MACH.
+    2. Puntos MACH: Los #MACHLovers no saben cómo se acumulan los puntos MACH, cómo se consultan y cómo se canjean.
+    3. Beneficios: A los usuarios les gustaría poder apreciar en la app y en la web cuáles son los beneficios MACH y cómo se accede a ellos.
+* Análisis Heurístico
 
 ## 4. Proceso de prototipado y diseño📋
 

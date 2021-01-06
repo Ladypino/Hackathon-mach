@@ -50,7 +50,7 @@ Puedes revisarlo [aqui](https://docs.google.com/spreadsheets/d/1dQnv5AJW8DxrpCu-
 Entrevista con Usuarios: (Conocer opiniones sobre el sitio actual y encontrar ideas para potenciarlo).
 
 1. [Mario Rocca](https://drive.google.com/drive/folders/1PNE_NR9NlQWFkVEwJxddpj4pXSuYIa37)
-2. [Francisco Maduro](https://drive.google.com/drive/folders/1PNE_NR9NlQWFkVEwJxddpj4pXSuYIa37)gi
+2. [Francisco Maduro](https://drive.google.com/drive/folders/1PNE_NR9NlQWFkVEwJxddpj4pXSuYIa37)
 
 ### 3.3 User persona
 

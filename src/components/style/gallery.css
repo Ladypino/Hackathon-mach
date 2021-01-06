@@ -6,7 +6,6 @@
   justify-content: center;
   padding: -25%;
   margin-top: 3rem;
- 
 }
 
 /* Create four equal columns that sits next to each other */
@@ -15,7 +14,6 @@
   max-width: 25%;
   padding: 0 4px;
 }
-
 .column img {
   margin-top: 8px;
   vertical-align: middle;

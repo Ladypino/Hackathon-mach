@@ -13,7 +13,7 @@
 
 ***
 
-![Logo](src/images/logo.png)
+![Logo](src/images/Logo.png)
 
 ## 1. Mach
 

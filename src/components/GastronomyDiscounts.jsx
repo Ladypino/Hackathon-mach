@@ -23,6 +23,7 @@ const GastronomyDiscounts = () => {
         <div className='Gastronomy--caption'>20% Sushi Blue</div>
       </a>
       </div>
+<<<<<<< HEAD
       <div className='Gastronomy--items'>
         <img className='Gastronomy--img' src={HouseBar} alt="House Bar" />
         <div className='Gastronomy--caption2'>Delivery Gratis House Bar</div>
@@ -32,6 +33,17 @@ const GastronomyDiscounts = () => {
         <div className='Gastronomy--caption'>Delivery Gratis Rappi</div>
       </div>
       <div className='Gastronomy--items'>
+=======
+      <div className='Gastronomy--items mt-5'>
+        <img className='Gastronomy--img' src={HouseBar} alt="House Bar" />
+        <div className='Gastronomy--caption2'>Delivery Gratis House Bar</div>
+      </div>
+      <div className='Gastronomy--items mt-5'>
+        <img className='Gastronomy--img' src={Rappi} alt="Rappi" />
+        <div className='Gastronomy--caption'>Delivery Gratis Rappi</div>
+      </div>
+      <div className='Gastronomy--items mt-5'>
+>>>>>>> test-fabi
         <img className='Gastronomy--img' src={Starbuks} alt="Starbuks" />
         <div className='Gastronomy--caption2'>50% Starbuks</div>
       </div>

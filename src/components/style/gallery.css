@@ -1,31 +1,4 @@
-<<<<<<< HEAD
 
-=======
-.container-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  width: 100%;
-  justify-content: center;
-  padding: -25%;
-  margin-top: 3rem;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
->>>>>>> 691aa8461b94b4c155c8294fe9bd777f46d0e2a2
-.image8{
-    height: 30.5rem;
-}
 .texth2{
     font-family: 'Nunito', sans-serif;
     font-style: normal;

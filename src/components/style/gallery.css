@@ -67,11 +67,11 @@
   object-fit: cover;
   position: relative
 }
-.Gastronomy--caption{
+.Gastronomy--caption1{
  
 
   padding: 10px;
-  font-family: Nunito;
+  font-family: 'Nunito';
   font-size: 18px;
   padding-left: 10px;
   position: absolute;
@@ -82,10 +82,12 @@
   color: #F8F7F4;
   width: 211px;
 height: 45px;
+ font-weight: bold; 
+    
 }
 .Gastronomy--caption2{
   padding: 10px;
-  font-family: Nunito;
+  font-family: 'Nunito';
   font-size: 18px;
   padding-left: 10px;
   position: absolute;
@@ -95,42 +97,46 @@ height: 45px;
   display: flex;
  flex-direction: column;
   align-items: flex-start;
-
+  font-weight: bold; 
 width: 211px;
 height: 45px;
+margin-top:-16px ;
 
 
 }
 .Gastronomy--caption3{
   padding: 10px;
-  font-family: Nunito;
+  font-family:'Nunito' ;
+ font-weight: bold;
   font-size: 18px;
   padding-left: 10px;
   position: absolute;
   left: 4px;
-  top: 8%;
+  top: 5%;
   z-index: 10;
   background-color: #6200EE;
   color: #F8F7F4;
   width: 146px;
-  height: 40px;
+  height: 45px;
+  
 
 
 }
 
 .Gastronomy--caption4{
   padding: 10px;
-  font-family: Nunito;
+  font-family: 'Nunito';
   font-size: 18px;
   padding-left: 10px;
   position: absolute;
   left:4px;
-  top: 10%;
+  top: 5%;
   z-index: 10;
   background-color: #6200EE;
   color: #F8F7F4;
   width: 211px;
   height: 45px;
+  font-weight: bold;
 
 
 }

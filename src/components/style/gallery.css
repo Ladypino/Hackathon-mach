@@ -14,38 +14,37 @@
   max-width: 25%;
   padding: 0 4px;
 }
-
 .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
 }
-.image8 {
-  height: 30.5rem;
+.image8{
+    height: 30.5rem;
 }
-.texth2 {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2rem;
-  line-height: 2.75rem;
-  text-align: center;
-  font-feature-settings: "liga" off;
-  color: #18191f;
-  margin-top: 3rem;
+.texth2{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+    margin-top: 3rem;
 }
 
-.texth5 {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.5rem;
-  line-height: 2.063rem;
-  text-align: center;
-  font-feature-settings: "liga" off;
-  color: #5f5f5f;
-  width: 80%;
-  margin: auto;
+.texth5{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.063rem;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #5F5F5F;
+    width:80%;
+    margin:auto;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

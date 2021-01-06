@@ -6,9 +6,10 @@
 * [2. Comenzando a usarla.](#2-Comenzando-a-usarla)
 * [3. Investigación.](#3-Investigación)
     - [3.1 Benchmark.](#31-Benchmark)
-    - [3.1 Benchmark.](#31-Benchmark)
-    - [3.1 Benchmark.](#31-Benchmark)
-    - [3.1 Benchmark.](#31-Benchmark)
+    - [3.2 Entrevista con usuarios.](#32-Entrevista-con-usuarios)
+    - [3.3 User persona.](#33-User-persona)
+    - [3.4 Insights.](#34-Insights)
+    - [3.5 Análisis heurístico.](#35-Análisis-heurístico)
 * [4. Proceso de prototipado y diseño.](#4-Proceso-de-Prototipado-y-diseño)
 * [5. Aportes.](#5-Aportes)
 * [6. Despliegue.](#10-Despliegue)
@@ -51,7 +52,7 @@ Entrevista con Usuarios: (Conocer opiniones sobre el sitio actual y encontrar id
 1. [Mario Rocca](https://drive.google.com/drive/folders/1PNE_NR9NlQWFkVEwJxddpj4pXSuYIa37)
 2. [Francisco Maduro](https://drive.google.com/drive/folders/1PNE_NR9NlQWFkVEwJxddpj4pXSuYIa37)gi
 
-### 3.3 User Persona
+### 3.3 User persona
 
 (Personaje ficticio que representa un usuario de la plataforma).
 
@@ -65,7 +66,7 @@ Entrevista con Usuarios: (Conocer opiniones sobre el sitio actual y encontrar id
 
 ![Insights](src/images/insights.png)
 
-### 3.5 Análisis Heurístico
+### 3.5 Análisis heurístico
 
 Puedes revisarlo [aqui](https://docs.google.com/spreadsheets/d/1ooQS2eE9-tJDUIGaZU23ikogfsBBGLC9/edit?usp=drive_web&ouid=103640674254094711703&rtpof=true)
 

@@ -38,7 +38,7 @@ const GalleryViews = () => {
           <a href="/gastronomy">
            
             <img className="image" src={Gastronomia} />
-            <div className='Gastronomy--caption'>Gastronomía</div>
+            <div className='Gastronomy--caption1'>Gastronomía</div>
           </a>
         </div>
 

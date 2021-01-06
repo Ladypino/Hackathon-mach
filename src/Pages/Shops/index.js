@@ -1,11 +1,7 @@
 import React from "react";
-import TestCard from "../../components/testCard";
+// import TestCard from "../../components/testCard";
 
 const Shops = () => {
-  return (
-    <div>
-      <TestCard />
-    </div>
-  );
+  return <div>hola</div>;
 };
 export default Shops;

@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Mach Beneficios
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Índice
 
-## Available Scripts
+* [1. Mach.](#1-Mach)
+* [2. Comenzando a usarla.](#2-Comenzando-a-usarla)
+* [3. Investigación.](#3-Investigación)
+* [4. Proceso de prototipado y diseño.](#4-Proceso-de-Prototipado-y-diseño)
+* [5. Aportes.](#5-Aportes)
+* [6. Despliegue.](#10-Despliegue)
+* [7. Herramientas.](#7-Herramientas)
+* [8. Autoras.](#8-Autoras)
 
-In the project directory, ddddyou can run:g
+***
 
-### `npm start`
+![Logo](src/images/logo.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 1. Mach
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**¿Qué es Mach?**
 
-### `npm test`
+**MACH** es la forma más fácil pagar a tus contactos y comprar en comercios internacionales.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+En **MACH** premiamos tu lealtad con los mejores beneficios, es por ello que queremos que tengas toda la información necesaria para que puedas comenzar a disfrutar de todo lo que **Mach** tiene para ofrecerte.
 
-### `npm run build`
+Puedes conocerla y probarla [aquí](https://hackathon-mach.web.app/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 2. Comenzando a usarla 🚀
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Implementado como un SPA (*Single Page Aplication*), desarrollada con **React** y desplegada en Hosting **Firebase** para su uso en Desktop a través de cualquier navegador web.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 3. Investigación :busts_in_silhouette
 
-### `npm run eject`
+En esta etapa pudimos realizar una investigación para conocer más sobre los Beneficios de ***Mach***
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+En este proceso investigativo realizamos:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Benchmark (Estudio de mercado, directo e indirecto).
+* Entrevista con Usuarios: (Conocer opiniones sobre el sitio actual y encontrar ideas para potenciarlo).
+     [Mario Rocca]()
+     []()
+     []()
+     []()
+* User Persona (Personaje ficticio que representa un usuario de la plataforma).
+* Insights (Descubrimientos).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 4. Proceso de prototipado y diseño📋
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Prototipo de alta fidelidad - WEB**
+Comenzamos construyendo nuestro prototipo de alta fidelidad en base a la investigación previa, para la web de Beneficios de **Mach**.
+Puedes revisarlo [aquí](https://www.figma.com/file/HSayHEIuRomysC8t0qb4dn/MACH?node-id=259%3A1777)
 
-## Learn More
+**Prototipo de alta fidelidad - APP**
+También diseñamos y prototipamos los Beneficios y la gamificación de **Mach** pero en la versión para APP.  
+Puedes revisarlo [aquí](https://www.figma.com/proto/HSayHEIuRomysC8t0qb4dn/MACH?node-id=374%3A2238&scaling=contain).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![WEB](src/images/desktop.png)
+![APP](src/images/app.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Guia de Estilo
 
-### Code Splitting
+![StyleGuide](src/images/Styleguide.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 5. Aportes 🧡
 
-### Analyzing the Bundle Size
+Aqui una pequeña lista con los aportes ofrecidos a la sección de Beneficios de  ***Mach***:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 6. Despliegue 📦
 
-### Making a Progressive Web App
+Puedes acceder al deploy de nuestro proyecto [aquí](https://hackathon-mach.web.app/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 7. Herramientas 🛠️
 
-### Advanced Configuration
+En éste proyecto fueron utilizadas varias herramientas para llegar al resultado del producto entregado.
+Las herramientas usadas fueron:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* [Figma.](https://www.figma.com/file/HSayHEIuRomysC8t0qb4dn/MACH?node-id=0%3A1) – Para el prototipado de alta fidelidad.
+* [Firebase](https://firebase.google.com) – Para el hosting.
+* [Git y GitHub](https://github.com/xsamynox/Hackathon-mach) – Para el trabajo colaborativo.
+* [Boostrap](https://getbootstrap.com/) - Para algunos elementos simples.
+* [Reactstrap](https://www.npmjs.com/package/reactstrap) - Para algunos elementos simples.
+* [ReactRouter](https://reactrouter.com/) - Para la creación de una SPA.
 
-### Deployment
+## 8. Autoras ✒️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Éste proyecto fue realizado en conjunto por alumnas de la generación 014 de Santiago, Chile de Laboratoria.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* **Namastheys Soledad** 📝✨ - UX/UI Designer
+* **Lady Pino** [GitHub](https://github.com/Ladypino) :octocat: - Front-end Developer
+* **Fabiane Santos** [GitHub](https://github.com/FabianeSantos) :octocat: - Front-end Developer
+* **Yndira Natera** [GitHub](https://github.com/naterayc) :octocat: - Front-end Developer
+* **Samantha Moreno** [GitHub](https://github.com/xsamynox) :octocat: - Front-end Developer

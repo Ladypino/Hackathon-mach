@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 
 header{
+  position: fixed;
+  z-index: 2000;
   width: 100%;
   height: 76px; 
   background-color: #ffffff;
@@ -26,7 +28,7 @@ header li a:hover{
 }
 .Header--ul-1-home{
   margin-left: 15px;
-  margin-right: 213px;
+  margin-right: 158px;
 }
 
 .Header--ul-2{

@@ -1,0 +1,50 @@
+.howTo-title{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+    margin:8% auto 6%;
+}
+
+.howTo-container{
+    display: flex;
+    justify-content: space-around;
+    width:85%;
+    margin: auto auto 8%;
+}
+
+.howTo-container > div{
+    width:27.5%;
+    text-align: center;
+}
+
+.howTo-container > div > img{
+    width:30%;
+    margin-bottom: 5%;
+}
+
+.howTo-container > div > h5{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.063rem;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #5F5F5F;
+}
+
+.howTo-container > div > p{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.563rem;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #5F5F5F;
+}

@@ -1,22 +1,29 @@
 
+.CoverPage{
+  width:100%;
+  height: 572px;
+  background-image: url('../../images/image-coverpage.jpeg');
+  background-size: cover;
+}
 .CoverPage--img{
   width: 100%;
 }
 .CoverPage--ctn{
+
   position: absolute;
   width: 554px;
   height: 110px;
   left: 166px;
-  top: 251px;
+  top: 200px;
 }
-h1{
-  font-size: 3rem;
+.CoverPage--ctn-h1{
+  font-size: 2.5rem;
   color: #18191F;
   font-weight: normal;
   font-style: normal;
   line-height: 55px;
 }
-h3{
+.CoverPage--ctn-h3{
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
@@ -33,5 +40,7 @@ h3{
   position: absolute;
   left: 166px;
   top: 468px;
-
+}
+.CoverPage--btn:hover{
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
 }

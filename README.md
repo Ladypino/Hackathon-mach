@@ -29,7 +29,7 @@ Puedes conocerla y probarla [aquí](https://hackathon-mach.web.app/).
 
 Implementado como un SPA (*Single Page Aplication*), desarrollada con **React** y desplegada en Hosting **Firebase** para su uso en Desktop a través de cualquier navegador web.
 
-## 3. Investigación :busts_in_silhouette
+## 3. Investigación 👀
 
 En esta etapa pudimos realizar una investigación para conocer más sobre los Beneficios de ***Mach***
 
@@ -54,14 +54,13 @@ Puedes revisarlo [aquí](https://www.figma.com/file/HSayHEIuRomysC8t0qb4dn/MACH?
 También diseñamos y prototipamos los Beneficios y la gamificación de **Mach** pero en la versión para APP.  
 Puedes revisarlo [aquí](https://www.figma.com/proto/HSayHEIuRomysC8t0qb4dn/MACH?node-id=374%3A2238&scaling=contain).
 
-![WEB](src/images/desktop.png)
-![APP](src/images/app.png)
+![Prototipos](src/images/Desktop.jpg)
 
-Guia de Estilo
+**Guia de Estilo**
 
 ![StyleGuide](src/images/Styleguide.jpg)
 
-## 5. Aportes 🧡
+## 5. Aportes 💜
 
 Aqui una pequeña lista con los aportes ofrecidos a la sección de Beneficios de  ***Mach***:
 

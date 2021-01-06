@@ -5,6 +5,10 @@
 * [1. Mach.](#1-Mach)
 * [2. Comenzando a usarla.](#2-Comenzando-a-usarla)
 * [3. Investigación.](#3-Investigación)
+    - [3.1 Benchmark.](#31-Benchmark)
+    - [3.1 Benchmark.](#31-Benchmark)
+    - [3.1 Benchmark.](#31-Benchmark)
+    - [3.1 Benchmark.](#31-Benchmark)
 * [4. Proceso de prototipado y diseño.](#4-Proceso-de-Prototipado-y-diseño)
 * [5. Aportes.](#5-Aportes)
 * [6. Despliegue.](#10-Despliegue)
@@ -19,7 +23,7 @@
 
 **¿Qué es Mach?**
 
-**MACH** es la forma más fácil pagar a tus contactos y comprar en comercios internacionales.
+**MACH** Es la forma más fácil de pagar a tus contactos y comprar en comercios internacionales.
 
 En **MACH** premiamos tu lealtad con los mejores beneficios, es por ello que queremos que tengas toda la información necesaria para que puedas comenzar a disfrutar de todo lo que **Mach** tiene para ofrecerte.
 
@@ -27,7 +31,7 @@ Puedes conocerla y probarla [aquí](https://hackathon-mach.web.app/).
 
 ## 2. Comenzando a usarla 🚀
 
-Implementado como un SPA (*Single Page Aplication*), desarrollada con **React** y desplegada en Hosting **Firebase** para su uso en Desktop a través de cualquier navegador web.
+Implementado como un SPA (*Single Page Application*), desarrollada con **React** y desplegada en Hosting **Firebase** para su uso en Desktop a través de cualquier navegador web.
 
 ## 3. Investigación 👀
 
@@ -35,16 +39,35 @@ En esta etapa pudimos realizar una investigación para conocer más sobre los Be
 
 En este proceso investigativo realizamos:
 
-* Benchmark (Estudio de mercado, directo e indirecto).
-* Entrevista con Usuarios: (Conocer opiniones sobre el sitio actual y encontrar ideas para potenciarlo).
-     [Mario Rocca](https://drive.google.com/drive/folders/1PNE_NR9NlQWFkVEwJxddpj4pXSuYIa37)
-     [Francisco Maduro](https://drive.google.com/drive/folders/1PNE_NR9NlQWFkVEwJxddpj4pXSuYIa37)
-* User Persona (Personaje ficticio que representa un usuario de la plataforma).
-* Insights (Descubrimientos).
-    1. Navegación: Los usuarios desean encontrarse con información clara, rápida, precisa y por filtros, respecto a los beneficios MACH.
-    2. Puntos MACH: Los #MACHLovers no saben cómo se acumulan los puntos MACH, cómo se consultan y cómo se canjean.
-    3. Beneficios: A los usuarios les gustaría poder apreciar en la app y en la web cuáles son los beneficios MACH y cómo se accede a ellos.
-* Análisis Heurístico
+### 3.1 Benchmark
+
+(Estudio de mercado, directo e indirecto).
+Puedes revisarlo [aqui](https://docs.google.com/spreadsheets/d/1dQnv5AJW8DxrpCu-ok-u4Y_LH_dwiY0M/edit?usp=drive_web&ouid=103640674254094711703&rtpof=true)
+
+### 3.2 Entrevista con usuarios
+
+Entrevista con Usuarios: (Conocer opiniones sobre el sitio actual y encontrar ideas para potenciarlo).
+
+1. [Mario Rocca](https://drive.google.com/drive/folders/1PNE_NR9NlQWFkVEwJxddpj4pXSuYIa37)
+2. [Francisco Maduro](https://drive.google.com/drive/folders/1PNE_NR9NlQWFkVEwJxddpj4pXSuYIa37)gi
+
+### 3.3 User Persona
+
+(Personaje ficticio que representa un usuario de la plataforma).
+
+![User Persona](src/images/userpersona1.png)
+![User Persona](src/images/userpersona2.png)
+
+
+### 3.4 Insights
+
+(Descubrimientos).
+
+![Insights](src/images/insights.png)
+
+### 3.5 Análisis Heurístico
+
+Puedes revisarlo [aqui](https://docs.google.com/spreadsheets/d/1ooQS2eE9-tJDUIGaZU23ikogfsBBGLC9/edit?usp=drive_web&ouid=103640674254094711703&rtpof=true)
 
 ## 4. Proceso de prototipado y diseño📋
 
@@ -86,7 +109,7 @@ Las herramientas usadas fueron:
 
 Éste proyecto fue realizado en conjunto por alumnas de la generación 014 de Santiago, Chile de Laboratoria.
 
-* **Namastheys Soledad** 📝✨ - UX/UI Designer
+* **Namastheys Soledad** [Portafolio](https://namastheysbastardo.com/) 📝✨ - UX/UI Designer
 * **Lady Pino** [GitHub](https://github.com/Ladypino) :octocat: - Front-end Developer
 * **Fabiane Santos** [GitHub](https://github.com/FabianeSantos) :octocat: - Front-end Developer
 * **Yndira Natera** [GitHub](https://github.com/naterayc) :octocat: - Front-end Developer

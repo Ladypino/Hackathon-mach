@@ -64,7 +64,7 @@ Entrevista con Usuarios: (Conocer opiniones sobre el sitio actual y encontrar id
 
 (Descubrimientos).
 
-![Insights](src/images/insights.png)
+![Insights](src/images/insight.png)
 
 ### 3.5 Análisis heurístico
 

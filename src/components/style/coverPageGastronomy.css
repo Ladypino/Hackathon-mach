@@ -45,6 +45,7 @@
   font-weight: 600;
 }
 .Gastronomy--ctn-h1{
+  font-family: 'Nunito', sans-serif;
   font-size: 2.5rem;
   color: #18191F;
   font-weight: normal;
@@ -52,6 +53,7 @@
   line-height: 55px;
 }
 .Gastronomy--ctn-h3{
+  font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.75rem;

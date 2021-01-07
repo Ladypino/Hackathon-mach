@@ -73,11 +73,11 @@ Puedes revisarlo [aqui](https://docs.google.com/spreadsheets/d/1ooQS2eE9-tJDUIGa
 
 **Prototipo de alta fidelidad - WEB**
 Comenzamos construyendo nuestro prototipo de alta fidelidad en base a la investigación previa, para la web de Beneficios de **Mach**.
-Puedes revisarlo [aquí](https://www.figma.com/file/HSayHEIuRomysC8t0qb4dn/MACH?node-id=259%3A1777)
+Puedes revisarlo [aquí](https://www.figma.com/proto/HSayHEIuRomysC8t0qb4dn/MACH?node-id=712%3A164&scaling=min-zoom)
 
 **Prototipo de alta fidelidad - APP**
 También diseñamos y prototipamos los Beneficios y la gamificación de **Mach** pero en la versión para APP.  
-Puedes revisarlo [aquí](https://www.figma.com/proto/HSayHEIuRomysC8t0qb4dn/MACH?node-id=374%3A2238&scaling=contain).
+Puedes revisarlo [aquí](https://www.figma.com/proto/HSayHEIuRomysC8t0qb4dn/MACH?node-id=374%3A2238&scaling=scale-down).
 
 ![Prototipos](src/images/Desktop.jpg)
 

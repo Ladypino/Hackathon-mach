@@ -1,7 +1,14 @@
-import React from "react";
+import React, { Fragment } from "react";
+import HeroShops from '../../components/HeroShops';
+import ShopsDiscounts from "../../components/ShopsDiscounts";
 // import TestCard from "../../components/testCard";
 
 const Shops = () => {
-  return <div>hola</div>;
+  return(
+    <Fragment>
+      <HeroShops/>
+      <ShopsDiscounts/>
+    </Fragment>
+  );
 };
 export default Shops;

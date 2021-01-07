@@ -13,7 +13,7 @@
 * [4. Proceso de prototipado y diseño.](#4-Proceso-de-Prototipado-y-diseño)
 * [5. Aportes.](#5-Aportes)
 * [6. Despliegue.](#10-Despliegue)
-* [7. Herramientas.](#7-Herramientas)
+* [7. Herramientas y tecnologías.](#7-Herramientas-y-tecnologias)
 * [8. Autoras.](#8-Autoras)
 
 ***
@@ -36,7 +36,7 @@ Implementado como un SPA (*Single Page Application*), desarrollada con **React**
 
 ## 3. Investigación 👀
 
-En esta etapa pudimos realizar una investigación para conocer más sobre los Beneficios de ***Mach***
+En esta etapa pudimos realizar una investigación por medio del Design Thinking, para conocer más sobre los Beneficios de ***Mach***
 
 En este proceso investigativo realizamos:
 
@@ -58,7 +58,6 @@ Entrevista con Usuarios: (Conocer opiniones sobre el sitio actual y encontrar id
 
 ![User Persona](src/images/userpersona1.png)
 ![User Persona](src/images/userpersona2.png)
-
 
 ### 3.4 Insights
 
@@ -94,7 +93,7 @@ Aqui una pequeña lista con los aportes ofrecidos a la sección de Beneficios de
 
 Puedes acceder al deploy de nuestro proyecto [aquí](https://hackathon-mach.web.app/).
 
-## 7. Herramientas 🛠️
+## 7. Herramientas y Tecnologías🛠️
 
 En éste proyecto fueron utilizadas varias herramientas para llegar al resultado del producto entregado.
 Las herramientas usadas fueron:
@@ -102,7 +101,7 @@ Las herramientas usadas fueron:
 * [Figma.](https://www.figma.com/file/HSayHEIuRomysC8t0qb4dn/MACH?node-id=0%3A1) – Para el prototipado de alta fidelidad.
 * [Firebase](https://firebase.google.com) – Para el hosting.
 * [Git y GitHub](https://github.com/xsamynox/Hackathon-mach) – Para el trabajo colaborativo.
-* [Boostrap](https://getbootstrap.com/) - Para algunos elementos simples.
+* [Bootstrap](https://getbootstrap.com/) - Para algunos elementos simples.
 * [Reactstrap](https://www.npmjs.com/package/reactstrap) - Para algunos elementos simples.
 * [ReactRouter](https://reactrouter.com/) - Para la creación de una SPA.
 

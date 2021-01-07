@@ -36,6 +36,8 @@ Implementado como un SPA (*Single Page Application*), desarrollada con **React**
 
 ## 3. Investigación 👀
 
+Esta propuesta busca potenciar los Insigth que surgieron durante el proceso de research,contribuyendo a que el usuario pueda conocer qué son los puntos MACH, cómo se acumulan, cómo se canjean y cuáles son los beneficios MACH. También, dar a conocer los perfiles MACH según los puntos acumulados, todo esto gracias al uso de gamificación.
+
 En esta etapa pudimos realizar una investigación por medio del Design Thinking, para conocer más sobre los Beneficios de ***Mach***
 
 En este proceso investigativo realizamos:
@@ -101,6 +103,7 @@ Las herramientas usadas fueron:
 * [Figma.](https://www.figma.com/file/HSayHEIuRomysC8t0qb4dn/MACH?node-id=0%3A1) – Para el prototipado de alta fidelidad.
 * [Firebase](https://firebase.google.com) – Para el hosting.
 * [Git y GitHub](https://github.com/xsamynox/Hackathon-mach) – Para el trabajo colaborativo.
+* [React](https://reactjs.org/) – Para la creación de la interfaz
 * [Bootstrap](https://getbootstrap.com/) - Para algunos elementos simples.
 * [Reactstrap](https://www.npmjs.com/package/reactstrap) - Para algunos elementos simples.
 * [ReactRouter](https://reactrouter.com/) - Para la creación de una SPA.

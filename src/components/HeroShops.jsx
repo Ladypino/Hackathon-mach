@@ -12,8 +12,8 @@ const HeroShops = () => {
                         <li className="shops-breadcrumb-item-active" aria-current="page"><span>Tiendas</span></li>
                     </ol>
                 </nav>
-                <h1>Nunca esperaste tanto que llegase un día de la semana</h1>
-                <h3>Te traemos descuentos y promociones por días, que MACH ha escogido pensados en  tus gustos.</h3>
+                <h1>Nos gusta tu comodidad y que te sientas bien</h1>
+                <h3>Por eso te ofrecemos estos descuentos y promociones en tus tiendas favoritas.</h3>
             </div>
         </div>
     );

@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-content: space-between;
   gap: 20px;
-  font-family: "nunito";
+  font-family: "Nunito", sans-serif;
 }
 .Gastronomy--img {
   width: 350px;

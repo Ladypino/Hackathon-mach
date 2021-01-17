@@ -4,7 +4,7 @@
   font-family: "nunito";
 }
 .containerFooter p {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .containerFooter h5 {
@@ -28,7 +28,13 @@
 }
 .containerFooter a:hover {
   color: #9b55ff;
+
   text-decoration: none;
+}
+
+::placeholder {
+  color: #9b55ff;
+  font-weight: bold;
 }
 
 .number-box {

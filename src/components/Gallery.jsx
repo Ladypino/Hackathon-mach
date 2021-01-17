@@ -1,80 +1,64 @@
+import "./style/gallery.css";
+import Destacado from "../images/Gallery/Destacado.png";
+import Gastronomia from "../images/Gallery/Gastronomia.png";
+import Servicios from "../images/Gallery/Servicios.png";
+import Tienda from "../images/Gallery/Tienda.png";
+import Ofertadeldia from "../images/Gallery/Ofertadeldia.png";
+import Puntos from "../images/Gallery/Puntos.png";
 
-import './style/gallery.css'
-import React from "react";
+import React, { Fragment } from "react";
 
-import Gallery from "react-photo-gallery";
-
-
-
-
-import image1 from '../images/Gallery/image1.png'
-import image2 from '../images/Gallery/image2.png'
-import image3 from '../images/Gallery/image3.png'
-import image7 from '../images/Gallery/image7.png'
-import image5 from '../images/Gallery/image5.png'
-import image6 from '../images/Gallery/image6.png'
-
-
-
-const GalleryViews =() =>{
-
-  const photos = [
-    {
-      src:image1,
-      width: 4,
-      height: 7,
-      className:'image1',
-     
-    },
-    {
-      src:image2,
-      width: 60,
-      height: 40,
-      className:'image2'
-    },
-    {
-      src: image7,
-      width: 3,
-      height: 6,
-      className:'image7'
-    },
-    {
-      src:image6,
-      width: 3,
-      height: 4,
-      className:'image6'
-      
-   
-    },
-    {
-      src: image5,
-      width: 8,
-      height: 6,
-      className:'image5',
-     
-    
-    
-    },
-    {
-      src: image3,
-      width: 4,
-      height: 3,
-      className:'image3'
-    },
-    
-  ];
-
-  <div>
-            <img alt="" src="image6" />
-            <p className="legend">Legend 10</p>
-        </div>
+const GalleryViews = () => {
   return (
-    <div className ='containerGallery'>
-    <h2 className= 'h2Gallery'>MACH Beneficios</h2>
-    <p className='pGallery'>Te ofrecemos gran variedad de descuentos, para disfrutar y hasta impulsar tu carrera profesional. Además, prepárate para canjear tus Puntos MACH pensados en ti.</p>
-      <Gallery photos={photos} direction={"column"} />
-    
-    </div>
-  )
-}
-export default GalleryViews
+    <Fragment>
+      <div className="container-gallery1">
+        <h2 className="texth2">MACH Beneficios</h2>
+        <h5 className="texth5">
+          Te ofrecemos gran variedad de descuentos, para disfrutar y hasta
+          impulsar tu carrera profesional. Además, prepárate para canjear tus
+          Puntos MACH pensados en ti.
+        </h5>
+      </div>
+
+      <div className="wrapper">
+        <div className="one">
+          <img className="image1" src={Destacado} alt="Destacados" />
+          <div className='Gallery--caption2'>Destacados</div>
+        </div>
+
+        <div className="two">
+          <a href="/gastronomy">
+            <img className="image" src={Gastronomia} alt="Gastronomia" />
+            <div className='Gallery--caption1'>Gastronomía</div>
+          </a>
+        </div>
+
+        <div className="three">
+          <a href="/mach-services">
+            <img className="image" src={Servicios} alt="Servicios" />
+            <div className='Gallery--caption2'>Servicios</div>
+          </a>
+        </div>
+        <div className="four">
+          <a href="/shops">
+            <img className="image" src={Tienda} alt="Tiendas" />
+            <div className='Gallery--caption3'>Tiendas</div>
+          </a>
+        </div>
+        <div className="five">
+          <a href="/sale-of-the-day">
+            <img className="image" src={Ofertadeldia} alt="Oferta del dia" />
+            <div className='Gallery--caption4'>Oferta del día</div>
+          </a>
+        </div>
+        <div className="six">
+          <a href="/points">
+            <img className="image" src={Puntos} alt="Puntos" />
+            <div className='Gallery--caption3'>Puntos MACH</div>
+          </a>
+        </div>
+      </div>
+    </Fragment>
+  );
+};
+export default GalleryViews;
